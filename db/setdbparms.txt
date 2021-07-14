@@ -1,0 +1,1 @@
+TSKDB db2inst1 db2inst1-pwd
