@@ -1,4 +1,4 @@
-FROM seberino/ace-mq:1.1
+FROM seberino/ace-mq:1.2
 
 COPY BARfiles/*.bar /home/aceuser/initial-config/bars
 USER 0
