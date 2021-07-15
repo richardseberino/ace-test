@@ -11,6 +11,6 @@ COPY db/odbc.ini /home/aceuser
 COPY db/db2cli.ini /home/aceuser
 COPY db/odbcinst.ini /home/aceuser
 COPY db/setdbparms.txt /home/aceuser/
-RUN chmod 664 /home/aceuser/*.ini && chown aceuser:mqbrkrs /home/aceuser/*.ini
+RUN chmod 664 /home/aceuser/*.ini && chown aceuser:mqbrkrs /home/aceuser/*.ini && chmod 664 /home/aceuser/*.txt && chown aceuser:mqbrkrs /home/aceuser/*.txt
 
 USER 1000
