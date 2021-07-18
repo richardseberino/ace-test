@@ -1,1 +1,1 @@
-TSKDB db2inst1 db2inst1-pwd
+mqsisetdbparms -w /home/aceuser/ace-server -n TSKDB2 -u db2inst1 -p db2inst1-pwd
