@@ -1,6 +1,6 @@
 FROM seberino/ace-mq:1.2
 
-
+EXPOSE 7600
 COPY BARfiles/*.bar /home/aceuser/initial-config/bars
 USER 0
 RUN mkdir /home/aceuser/generic
