@@ -1,6 +1,6 @@
 FROM seberino/ace-mq:1.2
 
-COPY BARfiles/bar1.bar /home/aceuser/initial-config/bars 
+COPY BARfiles/*.bar /home/aceuser/initial-config/bars 
 USER 0
 ENV LICENSE accept
 EXPOSE 7600
